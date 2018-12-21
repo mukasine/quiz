@@ -1,218 +1,122 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Quiz board</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
- <script src="js/scripts.js"></script>
-</head>
-<body>
-    <div class="container">
-    <h1>QUIZ BOARD</h1>
-    <form id="test">
-            <div class="radio">
-                    <label for=question1>1.Which of the following function of Array object sorts the elements of an array?</label><br>
-                        <label>
-                          <input type="radio" name="question1" value="1">
-                          toSource()
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="question1" value="2">
-                          sort()
-                        </label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="question1" value="3">
-                          All of the above
-                        </label>
-                      </div>
+<DOCTYPE html>
+        <html>
+          <head>
+            <meta charset="utf-8">
+            <title>QUIZ-BOARD</title>
             
-                  <div class="radio">
-                        <label for=question2>2.Which of the following is correct about features of JavaScript?</label><br>
-                            <label>
-                              <input type="radio" name="question2" value="1">
-                              JavaScript is a lightweight, interpreted programming language.
-                            </label>
-                          </div>
-                          <div class="radio">
-                            <label>
-                              <input type="radio" name="question2" value="2">
-                              JavaScript is complementary to and integrated with Java.
-                            </label>
-                          </div>
-                          <div class="radio">
-                            <label>
-                              <input type="radio" name="question2" value="3">
-                              All of the above
-                            </label>
-                          </div>
-                          <div class="radio">
-                                <label for=question3>3.Which of the following is the correct syntax to print a page using JavaScript?</label><br>
-                                    <label>
-                                      <input type="radio" name="question3" value="1">
-                                      window.print();
-                                    </label>
-                                  </div>
-                                  <div class="radio">
-                                    <label>
-                                      <input type="radio" name="question3" value="2">
-                                      browser.print();
-                                    </label>
-                                  </div>
-                                  <div class="radio">
-                                    <label>
-                                      <input type="radio" name="question3" value="3">
-                                      navigator.print();
-                                    </label>
-                                  </div>
-                                  <div class="radio">
-                                        <label for=question4>4. Which built-in method calls a function for each element in the array?</label> <br>                                           </label><br>
-                                            <label>
-                                              <input type="radio" name="question4" value="1">
-                                              loop()
-                                            </label>
-                                          </div>
-                                          <div class="radio">
-                                            <label>
-                                              <input type="radio" name="question4" value="2">
-                                              forEach()
-                                            </label>
-                                          </div>
-                                          <div class="radio">
-                                            <label>
-                                              <input type="radio" name="question4" value="3">
-                                              None of the above.
-                                            </label>
-                                          </div>
-                                          <div class="radio">
-                                                <label for=question5>5.Which built-in method returns the calling string value converted to upper case?</label><br>
-                                                    <label>
-                                                      <input type="radio" name="question5" value="1">
-                                                      toUpperCase()
-                                                    </label>
-                                                  </div>
-                                                  <div class="radio">
-                                                    <label>
-                                                      <input type="radio" name="question5" value="2">
-                                                      toUpper()
-                                                    </label>
-                                                  </div>
-                                                  <div class="radio">
-                                                    <label>
-                                                      <input type="radio" name="question5" value="3">
-                                                      changeCase(case)
-                                                    </label>
-                                                  </div>
-                                                  <div class="radio">
-                                                        <label for=question6>6.Which of the following function of String object combines the text of two strings and returns a new string?</label><br>
-                                                            <label>
-                                                              <input type="radio" name="question6" value="1">
-                                                              concat()
-                                                            </label>
-                                                          </div>
-                                                          <div class="radio">
-                                                            <label>
-                                                              <input type="radio" name="question6" value="2">
-                                                              add()
-                                                            </label>
-                                                          </div>
-                                                          <div class="radio">
-                                                            <label>
-                                                              <input type="radio" name="question6" value="3">
-                                                              merge() 
-                                                            </label>"    
-                                                          </div> 
-                                                          <div class="radio">
-                        <label for=question7>7. Which of the following function of String object splits a String object into an array of strings by separating the string into substrings?</label><br>
-                            <label>
-                              <input type="radio" name="question7" value="1">
-                              slice()
-                          </div>
-                          <div class="radio">
-                            <label>
-                              <input type="radio" name="question7" value="2">
-                              split()
-                            </label>
-                          </div>
-                          <div class="radio">
-                                <label>
-                                  <input type="radio" name="question7" value="2">
-                                  replace()
-                                </label>
-                              </div> 
-                              <div class="radio"> 
-                                   <label for=question8>8.Which of the following function of String object returns the primitive value of the specified object.</label><br> 
-                                                <label>
-                                                  <input type="radio" name="question8" value="1">
-                                                  toLocaleUpperCase()
-                                                </label>
-                                              </div>
-                                              <div class="radio">
-                                                <label>
-                                                  <input type="radio" name="question8" value="2">
-                                                  valueOf()
-                                                </label>
-                                              </div>
-                                              <div class="radio">
-                                                <label>
-                                                  <input type="radio" name="question8" value="3">
-                                                  toString()
-                                                </label>
-                                              </div>
-                                              <div class="radio"> 
-                                   <label for=question9>9.Which of the following function of String object causes a string to be displayed in fixed-pitch font as if it were in a &lt;tt&gt; tag?.</label><br> 
-                                                <label>
-                                                  <input type="radio" name="question9" value="1">
-                                                  fixed()
-                                                </label>
-                                              
-                                              <div class="radio">
-                                                <label>
-                                                  <input type="radio" name="question9" value="2">
-                                                  big()
-                                                </label>
-                                              </div>
-                                              <div class="radio">
-                                                <label>
-                                                  <input type="radio" name="question9" value="3">
-                                                  blink()
-                                                </label>
-                                              </div>
-                                                    
-                                              <div class="radio">
-                                                    <label for=question10>10.Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?</label><br>
-                                                        <label>
-                                                          <input type="radio" name="question10" value="1">
-                                                           map()
-                                                        </label>
-                                                      </div>
-                                                      <div class="radio">
-                                                        <label>
-                                                          <input type="radio" name="question10" value="2">
-                                                          push()
-                                                        </label>
-                                                      </div>
-                                                      <div class="radio">
-                                                        <label>
-                                                          <input type="radio" name="question10" value="3">
-                                                          pop()
-                                                        </label>
-                                                      </div>
-                                        
-                        </div>
-                    </label>
-                    <center><button type="submit">SUBMIT</button></center>
-                </form>
-</div>   
-</body>
-</html>
+            <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+            <link href="mystyles.css" rel="stylesheet" type="text/css" />
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+            <script type="text/javascript" src="scripts.js"></script>
+          </head>
+          <body>
+           
+           <div class="container">
+           <div class="jumbotron">
+           <h1>QUIZ-BOARD</h1>
+           <p><em>This is an online javascript QUIZ</em><strong>   ..../60pts</strong></p>
+           <form id="quiz" name="quiz">
+              <div class="row">
+              <div class="col-md-6">
+               <strong>Q1.what does HTML stands for?</strong> <br>
+               <input type="radio" id="mc" name="questionOne" value="1">Home Tool Markup Language<br>
+               <input type="radio" id="mc" name="questionOne" value="2">Hyper Text Markup Language<br>
+               <input type="radio" id="mc" name="questionOne" value="3">Hyperlinks and Text Markup Language<br>
+      
+               <strong>Q2. Who is making the Web standards?</strong><br>
+               <input type="radio" id="mc" name="questionTwo" value="1">The World Wide Web Consortium<br>
+               <input type="radio" id="mc" name="questionTwo" value="2">microsoft<br>
+               <input type="radio" id="mc" name="questionTwo" value="3">mozilla<br>
+               <input type="radio" id="mc" name="questionTwo" value="4">Google<br>
+      
+               <strong>Q3. Which character is used to indicate an end tag:</strong><br>
+               <input type="radio" id="mc" name="questionThree" value="1">*<br>
+               <input type="radio" id="mc" name="questionThree" value="2">\<br>
+               <input type="radio" id="mc" name="questionThree" value="3">/<br>
+               <input type="radio" id="mc" name="questionThree" value="4">^<br>
+      
+               <strong>Q4. Which HTML attribute is used to define inline styles?</strong><br>
+               <input type="radio" id="mc" name="questionFour" value="1">styles<br>
+               <input type="radio" id="mc" name="questionFour" value="2">font<br>
+               <input type="radio" id="mc" name="questionFour" value="3">style<br>
+               <input type="radio" id="mc" name="questionFour" value="4">class<br>
+      
+              <strong>Q5. How do you insert a comment in a CSS file?</strong><br>
+                <input type="radio" id="mc" name="questionFive" value="1">' this is a comment<br>
+               <input type="radio" id="mc" name="questionFive" value="2">// this is a comment //<br>
+               <input type="radio" id="mc" name="questionFive" value="3">// this is a comment<br>
+               <input type="radio" id="mc" name="questionFive" value="4">/* this is a comment */<br>
+      
+               <strong>Q6.  Which property is used to change the background color?</strong><br>
+                <input type="radio" id="mc" name="questionSix" value="1">color<br>
+               <input type="radio" id="mc" name="questionSix" value="2"> background-color<br>
+               <input type="radio" id="mc" name="questionSix" value="3">bgcolor<br>
+      
+               <strong>Q7.  Which CSS property is used to change the text color of an element?</strong><br>
+                <input type="radio" id="mc" name="questionSeven" value="1">fgcolor<br>
+               <input type="radio" id="mc" name="questionSeven" value="2">text-color //<br>
+               <input type="radio" id="mc" name="questionSeven" value="3">color<br>
+      
+               <strong>Q8. How do you write "Hello World" in an alert box?</strong><br>
+               <input type="radio" id="mc" name="questionEight" value="1">alertBox("Hello World");<br>
+               <input type="radio" id="mc" name="questionEight" value="2">msg("Hello World");<br>
+               <input type="radio" id="mc" name="questionEight" value="3">alert("Hello World");<br>
+               <input type="radio" id="mc" name="questionEight" value="4">msgBox("Hello World");<br>
+              </div>
+              <div class="col-md-6">
+               <strong>Q9.  How do you create a function in JavaScript?</strong><br>
+                <input type="radio" id="mc" name="questionNine" value="1">function:myFunction()<br>
+               <input type="radio" id="mc" name="questionNine" value="2">function myFunction()<br>
+               <input type="radio" id="mc" name="questionNine" value="3">function = myFunction()<br>
+      
+               <strong>Q10.  How to write an "IF' statement in JavaScript?</strong><br>
+                <input type="radio" id="mc" name="questionTen" value="1"> if i = 5 then<br>
+               <input type="radio" id="mc" name="questionTen" value="2">if i == 5 then<br>
+               <input type="radio" id="mc" name="questionTen" value="3"> if i = 5<br>
+               <input type="radio" id="mc" name="questionTen" value="4">if (i == 5)<br>
+      
+               <strong>Q11. what does DRY stand for?</strong><br>
+                <input type="radio" id="mc" name="questionEleven" value="1">Don't Repeat Yourself<br>
+               <input type="radio" id="mc" name="questionEleven" value="2">Drunk Rock Youth<br>
+               <input type="radio" id="mc" name="questionEleven" value="3">Design Reference Year<br>
+               <input type="radio" id="mc" name="questionEleven" value="4">Deer Run Youth<br>
+      
+               <strong>Q12. Which built-in method calls a function for each element in the array?</strong><br>
+                <input type="radio" id="mc" name="questionTwelve" value="1">while()<br>
+               <input type="radio" id="mc" name="questionTwelve" value="2">loop()<br>
+               <input type="radio" id="mc" name="questionTwelve" value="3">forEach()<br>
+               <input type="radio" id="mc" name="questionTwelve" value="4">None of the above.<br>
+      
+      
+               <strong>Q13. Which of the following is correct about features of JavaScript?</strong><br>
+                <input type="radio" id="mc" name="questionThirteen" value="1"> JavaScript is a lightweight, interpreted programming language.<br>
+               <input type="radio" id="mc" name="questionThirteen" value="2">JavaScript is designed for creating network-centric applications.<br>
+               <input type="radio" id="mc" name="questionThirteen" value="3">  JavaScript is complementary to and integrated with Java.<br>
+               <input type="radio" id="mc" name="questionThirteen" value="4">All of the above.<br>
+      
+               <strong>Q14.Which built-in method returns the calling string value converted to upper case?</strong><br>
+                <input type="radio" id="mc" name="questionFourteen" value="1">toUpperCase()<br>
+               <input type="radio" id="mc" name="questionFourteen" value="2">toUpper()<br>
+               <input type="radio" id="mc" name="questionFourteen" value="3"> changeCase(case)<br>
+               <input type="radio" id="mc" name="questionFourteen" value="4">None of the above.<br>
+      
+               <strong>Q15. Which of the following function of String object returns the primitive value of the specified object.</strong><br>
+                <input type="radio" id="mc" name="questionFifteen" value="1">toLocaleUpperCase()<br>
+               <input type="radio" id="mc" name="questionFifteen" value="2">toUpperCase()<br>
+               <input type="radio" id="mc" name="questionFifteen" value="3">toString()<br>
+               <input type="radio" id="mc" name="questionFifteen" value="4">valueOf()<br>
+              </div>
+              </div>
+               <input id="button" type="button" value="Get Results!" onclick="check()">
+               </form>
+               <div id="after_submit">
+                   <p id="number_count"></p>
+              </div>
+              </div>
+          </body>
+          </html>
+      
+      
+      
