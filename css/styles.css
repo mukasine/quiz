@@ -5,9 +5,12 @@ body{
     font-size: 30px;
 
 }
-
-
-
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  black;
+    font-size: 50px;
+    text-decoration: underline;
+    }
 
 #button{
     color:red;
