@@ -4,26 +4,25 @@
             <meta charset="utf-8">
             <title>QUIZ-BOARD</title>
             
-            <link href="bootstrap.css" rel="stylesheet" type="text/css" />
-            <link href="mystyles.css" rel="stylesheet" type="text/css" />
+            <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+            <link href="css/styles.css" rel="stylesheet" type="text/css" />
             <script src="https://code.jquery.com/jquery-3.3.1.min.js"
               integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
               crossorigin="anonymous"></script>
-            <script type="text/javascript" src="scripts.js"></script>
+            <script type="text/javascript" src="js/scripts.js"></script>
           </head>
           <body>
            
            <div class="container">
            <div class="jumbotron">
-           <h1>QUIZ-BOARD</h1>
-           <p><em>This is an online javascript QUIZ</em><strong> /10pts</strong></p>
+           <h1>Test</h1>
+           <p><em>test board</em><strong> /10pts</strong></p>
            <form id="test" name="test">
-              <div class="row">
-              <div class="col-md-6">
+               
                <strong>Q1.what does HTML stands for?</strong> <br>
-               <input type="radio" id="mc" name="qOne" value="1">Home Tool Markup Language<br>
-               <input type="radio" id="mc" name="qOne" value="2">Hyper Text Markup Language<br>
-               <input type="radio" id="mc" name="qOne" value="3">Hyperlinks and Text Markup Language<br>
+               <input type="radio" id="qOne" name="qOne" value="1">Home Tool Markup Language<br>
+               <input type="radio" id="qOne" name="qOne" value="2">Hyper Text Markup Language<br>
+               <input type="radio" id="qOne" name="qOne" value="3">Hyperlinks and Text Markup Language<br>
       
                <strong>Q2. Who is making the Web standards?</strong><br>
                <input type="radio" id="mc" name="qTwo" value="1">The World Wide Web Consortium<br>
@@ -38,17 +37,17 @@
                <input type="radio" id="mc" name="qThree" value="4">^<br>
       
                <strong>Q4. Which HTML attribute is used to define inline styles?</strong><br>
-               <input type="radio" id="mc" name="questionFour" value="1">styles<br>
-               <input type="radio" id="mc" name="questionFour" value="2">font<br>
-               <input type="radio" id="mc" name="questionFour" value="3">style<br>
-               <input type="radio" id="mc" name="questionFour" value="4">class<br>
+               <input type="radio" id="mc" name="qFour" value="1">styles<br>
+               <input type="radio" id="mc" name="qFour" value="2">font<br>
+               <input type="radio" id="mc" name="qFour" value="3">style<br>
+               <input type="radio" id="mc" name="qFour" value="4">class<br>
       
               <strong>Q5. How do you insert a comment in a CSS file?</strong><br>
                 <input type="radio" id="mc" name="qFive" value="1">' this is a comment<br>
                <input type="radio" id="mc" name="qFive" value="2">// this is a comment //<br>
                <input type="radio" id="mc" name="qFive" value="3">// this is a comment<br>
                <input type="radio" id="mc" name="qFive" value="4">/* this is a comment */<br>
-      
+
                <strong>Q6.  Which property is used to change the background color?</strong><br>
                 <input type="radio" id="mc" name="qSix" value="1">color<br>
                <input type="radio" id="mc" name="qSix" value="2"> background-color<br>
@@ -64,8 +63,7 @@
                <input type="radio" id="mc" name="qEight" value="2">msg("Hello World");<br>
                <input type="radio" id="mc" name="qEight" value="3">alert("Hello World");<br>
                <input type="radio" id="mc" name="qEight" value="4">msgBox("Hello World");<br>
-              </div>
-              <div class="col-md-6">
+            
                <strong>Q9.  How do you create a function in JavaScript?</strong><br>
                 <input type="radio" id="mc" name="qNine" value="1">function:myFunction()<br>
                <input type="radio" id="mc" name="qNine" value="2">function myFunction()<br>
@@ -76,12 +74,11 @@
                <input type="radio" id="mc" name="qTen" value="2">if i == 5 then<br>
                <input type="radio" id="mc" name="qTen" value="3"> if i = 5<br>
                <input type="radio" id="mc" name="qTen" value="4">if (i == 5)<br>
-              </div>
-              </div>
-               <input id="button" type="button" value="Get Results!" onclick="test()">
+               <input id="button" type="submit" value="Get Results!">
+
                </form>
                <div id="after_submit">
-                   <p id="number_count"></p>
+               <p id="number_count"></p>
               </div>
               </div>
           </body>
