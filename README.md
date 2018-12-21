@@ -19,16 +19,19 @@ HTML , CSS ,JavaScript, jQuery ,Bootstrap
 
 #BDD
 The following is what my program should handle:
-Input Example                       | Output Example                    |	
-Insert some correct/ wrong answers	| depends on the ones you got right |
-Insert the right answers            | 10/10                             |
-Insert only Wrong answers           | 0/10                              | 
+
+
+|Input Example                      | Output Example                    |
+| :-------------------------------: | :-------------------------------: |	
+|Insert some correct/ wrong answers	| depends on the ones you got right |
+|Insert the right answers           | 10/10                             |
+|Insert only Wrong answers          | 0/10                              | 
 
 	
 
-#Support and contact details
-e-mail:mclaremukasine@gmail.com
-tel:0782586013
+#Support / Contact details
+* e-mail:mclaremukasine@gmail.com
+* Tel:0782586013
 
 #License
 [MIT] Copyright (c) {year} {MUKASINE Marie Claire}
