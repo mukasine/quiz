@@ -10,7 +10,7 @@ Mukasine Marie Claire
 
 
 #Technologies Used
-HTML , CSS ,JavaScript, jQuery ,Bootstrap
+* HTML , CSS ,JavaScript, jQuery ,Bootstrap
 
 #Setup/Installation Requirements
 * Switch on your computer
